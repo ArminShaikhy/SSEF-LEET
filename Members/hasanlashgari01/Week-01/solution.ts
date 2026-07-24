@@ -15,9 +15,3 @@ function fizzBuzz(n: number): string[] {
 
   return result;
 }
-
-console.log(fizzBuzz(3));
-console.log("--------------------");
-console.log(fizzBuzz(5))
-console.log("--------------------");
-console.log(fizzBuzz(15))
