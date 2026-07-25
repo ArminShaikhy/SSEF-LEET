@@ -25,6 +25,6 @@ Input: n = 5
 Output: ["1","2","Fizz","4","Buzz"]
 Explenation: ["1","2","Fizz","4","Buzz"]
 
-## Constraints / محدودیت‌ها
+## Constraints
 
 1 <= n <= 10^4

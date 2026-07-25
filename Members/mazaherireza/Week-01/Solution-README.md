@@ -10,7 +10,7 @@
 
 I used "for" to loop from 1 to n, and check if counter is divisible by 3 or 5 or both in every step.
 
-## Complexity / پیچیدگی
+## Complexity
 
 - Time: O(1)
 - Space: O(?)
