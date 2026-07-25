@@ -9,9 +9,14 @@ const FizzBuzz = async () => {
 
   const number = await rl.question("Enter a number:");
 
-  const list = ["1", "2"];
+  const list = [];
 
-  for (let i = 3; i <= number; i++) {
+  for (let i = 0; i <= number; i++) {
+    if (i === 1 || i === 2) {
+      list.push(String(i));
+      continue;
+    }
+
     let output = "";
 
     if (i % 3 === 0) output += "Fizz";
