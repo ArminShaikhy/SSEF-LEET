@@ -1,5 +1,26 @@
-# Week 01 - Fizz Buzz
+# Week 01 — My Solution
 
-## language: Golang
+**Author:** LigerTheTextRovert
+**Language:** Go  
+**Approach:** Iterative with modulo checks
 
-## Idea: iterate over n and if n%3 == 0 push Fizz, n%5 == 0 push Buzz, n%15 == 0 push FizzBuzz, otherwise push the current number
+---
+
+## Idea
+
+EN: Iterate from 1 to n and use the modulo operator to detect multiples of 3, 5, and 15.
+
+## Complexity / پیچیدگی
+
+- Time: O(n)
+- Space: O(n)
+
+## Files
+
+- `main.go` — main solution
+
+## Usage
+
+```(go)
+go run solution.go
+```
