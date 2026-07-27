@@ -1,4 +1,4 @@
-function foo(n) {
+function fizzBuzz(n) {
     if (n <= 0) return [];
 
     const result = [];
