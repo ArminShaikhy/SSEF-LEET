@@ -22,4 +22,4 @@
 
 ## Files / فایل‌ها
 
-- `solution.FizzBuzz.ts` — main solution / راه‌حل اصلی
+- `solution.ts` — main solution / راه‌حل اصلی
