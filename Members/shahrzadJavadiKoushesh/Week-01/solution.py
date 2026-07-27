@@ -1,13 +1,13 @@
 n = int(input())
-answer = [0] * (n + 1)
+answer = []
 for i in range(1, n+1):
     if i % 15 == 0:
-        answer[i] = "FizzBuzz"
+        answer.append("FizzBuzz")
     elif i % 3 == 0:
-        answer[i] = "Fizz"
+        answer.append("Fizz")
     elif i % 5 == 0:
-        answer[i] = "Buzz"
+        answer.append("Buzz")
     else:
-        answer[i] = str(i)
+        answer.append(i)
 
-print(str(answer[1:n+1]))
+print(answer)
