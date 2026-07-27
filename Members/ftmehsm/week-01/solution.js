@@ -1,19 +1,19 @@
-let result = [];
-
 function fizzBuzzCheck(m) {
-  if (m % 3 == 0) {
-    return "fizz";
-  } else if (m % 5 == 0) {
+  if (m % 3 === 0 && m % 5 === 0) {
+    return "FizzBuzz";
+  } else if (m % 5 === 0) {
     return "Buzz";
-  } else if (m % 3 == 0 && m % 5 == 0) {
-    return "Fizz Buzz";
+  } else if (m % 3 === 0) {
+    return "Fizz";
   } else {
-    return m;
+    return m.toString();
   }
 }
 
 function FizzBuzzResult(n) {
-  if ((1 <= n <= 10) ^ 4) {
+  let result = [];
+
+  if (1 <= n && n <= Math.pow(10, 4)) {
     for (let i = 1; i <= n; i++) {
       result.push(fizzBuzzCheck(i));
     }
@@ -23,4 +23,4 @@ function FizzBuzzResult(n) {
   }
 }
 
-console.log("result=" , FizzBuzzResult(15))
+console.log("result=", FizzBuzzResult(15));
