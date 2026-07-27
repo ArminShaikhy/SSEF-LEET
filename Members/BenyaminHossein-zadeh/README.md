@@ -7,6 +7,6 @@ Weekly solutions go here:
 ```text
 BenyaminHossein-zadeh/
   Week-01/
-    solution.<problem>.<ext>
-    <problem>.md
+    solution.<ext>
+    README.md
 ```
